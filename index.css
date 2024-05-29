@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height:  22vh;
+    width: 100%;
+    background-color: rgb(14, 2, 80);
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 8px solid #ffffff;
+}
+h1{
+    font-size: 55px;
+    letter-spacing: 30px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+section#area_cartelas{
+    width: 80%;
+    height: 76vh;
+    background-color: rgb(33, 4, 71);
+    border: 4px solid #ffffff;
+}
+
+div#header_cartelas{
+    width: 100%;
+    height: 19%;
+    background-color: rgb(33, 4, 71);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+}
+
+h3{
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+
+
+h4{
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+div#body_cartelas{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+section#area_numeros{
+    width: 30%;
+    height: 75vh;
+    background-color: rgb(33, 4, 71);
+    border: 1px solid #ffffff;
+}
+
+div#body_numeros{
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+div#body_numeros span{
+background-color: #ffffff;
+color: rgb(33, 4, 71);
+width: 30px;
+height: 30px;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 50%;
+box-shadow: #ffffff;
+margin: 3px;
+}
+
+div.cartela{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+div.cartela h4{
+    margin-bottom: 5px;
+}
+
+table, th, td{
+    border: 1px solid #ffffff;
+    border-collapse: collapse;
+}
+
+th, td{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    color: #ffffff;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    background-color: #ffffff;
+    color: rgb(33, 4, 71);
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+div#header_numeros{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(33, 4, 71);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid #ffffff;
+}
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    height: 5vh;
+    background-color: black;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #00c800;
+}
